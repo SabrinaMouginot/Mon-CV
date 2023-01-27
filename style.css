@@ -1,16 +1,18 @@
-body{
+/* body{
     margin: 0px;
     padding: 0px;
-    display:flex; /**Pour flexibilité des blocs (flexbox) dans l'ensemble du body**/
-}
-.container{
+    display:flex; 
+} */
+/**Pour flexibilité des blocs (flexbox) dans l'ensemble du body**/
+
+/* .container{
    display: grid;
    grid-auto-rows: minmax(auto,auto);
    grid-template-columns: repeat(1,1%);
    grid-template-columns: 25%;
    width:100%;
-}
-.colonne1{
+} */
+/* .colonne1{
    grid-column-start: 1;
    grid-column-end: 1;
    grid-row: 1;
@@ -19,8 +21,8 @@ body{
    grid-column-start: 2;
    grid-column-end: 4;
    grid-row: 1;
-}
-footer{
+} */
+/* footer{
    grid-column-start: 1;
    grid-column-end: 4;
    grid-row: 2;
@@ -51,7 +53,7 @@ footer{
       grid-row-start: auto;
       grid-row-end: auto;
    }
-}
+} */
 
 /******************************************** LA COLONNE DE GAUCHE *************************************************************/
 
