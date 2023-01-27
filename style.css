@@ -58,10 +58,12 @@
 /******************************************** LA COLONNE DE GAUCHE *************************************************************/
 
 .colonne1{
-   width: 100%;
-   display: flex;  /**Pour aligner tout**/
-   flex-direction: column;
-   flex-wrap: wrap; /**pour que les liens ne s'entassent pas quand on réduit, ça permet de les empiler.**/
+   /* width: 100%;
+   display: flex;   */
+   /**Pour aligner tout**/
+   /* flex-direction: column;
+   flex-wrap: wrap;  */
+   /**pour que les liens ne s'entassent pas quand on réduit, ça permet de les empiler.**/
    padding-bottom: 270px;
    background-color: rgb(47, 2, 59);
    color: aliceblue;
@@ -124,10 +126,12 @@
 }
 /******************************************** LA COLONNE DE DROITE *************************************************************/
 .colonne2{
-   width: 100%;
-   display: flex; /** Pour la flexbox **/
-   flex-direction: column;/** Pour la flexbox **/
-   flex-wrap: wrap;
+   /* width: 100%;
+   display: flex;  */
+   /** Pour la flexbox **/
+   /* flex-direction: column; */
+   /** Pour la flexbox **/
+   /* flex-wrap: wrap; */
    background-color: rgb(255, 200, 164);
    padding-left: 3px ;
    font-family:'segoe UI';
@@ -171,7 +175,7 @@ h4{
 }
                /********** LOISIRS **********/
 .loisirs{
-   margin-bottom: 20%;
+   margin-bottom: 5%;
    margin-left: 10%;
 }
 a:hover{
@@ -179,9 +183,8 @@ a:hover{
 }
                /********** FOOTER **********/
 footer{
-   background-color: rgb(196, 198, 207);
-   color: rgb(40, 0, 185);
-   padding: 2% 0 10% 0;
-   text-align: center;
-   margin-left: 0 auto;
+   background-color: rgb(255, 200, 164);
+   color: rgb(47, 2, 59);
+   padding: 0 0 10% 0;
+   /* text-align: center; */
 }
